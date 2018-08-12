@@ -1,0 +1,10 @@
+.clear::after{
+    content: '';
+    clear: both;
+    display: block;
+    width: 0;
+    height: 0;
+}
+.box{
+    margin: 43px 0 45px;
+}

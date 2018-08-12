@@ -1,0 +1,22 @@
+<template>
+  <div id="app">
+    <Header></Header>    
+    <router-view/>
+  </div>
+</template>
+
+<script>
+
+import Header from "./components/homepage_header"
+export default {
+  name: 'App',
+  components:{
+    Header
+  }
+}
+</script>
+
+<style>
+@import "style/init.css";
+@import "style/clearFix.css";
+</style>
